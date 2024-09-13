@@ -1,8 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
 
 *{
+    max-width: 100%;
     background-color: #020228;
     color: white;
 }
@@ -147,15 +147,15 @@ header {
 }
 
 /*MAIN*/
-
+/*Section 1*/
 #planos{
     background-image:url('../images/background-movies-series.png');
     width: 100%;
-    height: 700px;
+    height: 900px;
     background-size:cover;
 }
 
-#planos h1{
+#planos h1, #canais h1{
     font-size: 2em;
     text-align: center;
     font-weight: 500;
@@ -212,6 +212,28 @@ li::before {
     font-weight: bolder;
     text-align: center;
     letter-spacing: 0.3em;
-    
     font-size: 13px;
+}
+
+/*Section 2*/
+
+#canais {
+    margin-top: 80px;
+    height: 700px;
+    padding: 24px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin: 0 10%;
+}
+
+.card{
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid transparent;
 }
