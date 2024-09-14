@@ -219,7 +219,6 @@ li::before {
 
 #canais {
     margin-top: 80px;
-    height: 700px;
     padding: 24px;
 }
 
@@ -236,4 +235,37 @@ li::before {
     background-size: cover;
     background-position: center;
     border: 2px solid transparent;
+}
+
+/*Footer*/
+footer{
+    margin-top: 70px;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.links-footer a{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9e86ff;
+    text-decoration: none;
+    margin: 0 14px;  
+}
+
+footer p{
+    color: #9e86ff;
+    margin: 16px 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 70px;
 }
