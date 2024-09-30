@@ -1,0 +1,68 @@
+.login {
+    display: flex;
+    background-image:url('../images/background-movies-series.png');
+    width: 100%;
+    height: 70%;
+    margin: 54px 0 0 0;
+    padding: 50px 0;
+    align-items: center;
+    background-position: center;
+    background-size:cover;
+}
+.caixa-login{
+    display: flex;
+    flex-direction: column;
+    min-width: 720px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 8px;
+    row-gap: 24px;
+    background-color: rgba(211, 211, 211, 0.06); 
+}
+
+.caixa-login h1{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.caixa-login label{
+    font-size: 16px;
+}
+
+.input{
+    background-color:rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.botoes{
+    margin: 50px 0 0 0;
+}
+
+.botoes a:nth-child(2){
+    color: #9e86ff;
+    font-size: 1rem;
+    margin-left: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    z-index: 1;
+    background: linear-gradient(to bottom, transparent, #271e6e3c);
+}
+
+footer{
+    z-index: 10;
+    margin: 0;
+}
